@@ -1,0 +1,21 @@
+{
+  "name": "tharun-vaibhav-portfolio",
+  "version": "1.0.0",
+  "description": "Production portfolio for Tharun Vaibhav S S - Software Engineer | AI, Data & IoT",
+  "scripts": {
+    "dev:backend": "cd backend && python -m uvicorn main:app --reload --port 8000",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "seed:backend": "cd backend && python seed_data.py"
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "fastapi",
+    "threejs",
+    "ai",
+    "iot",
+    "data"
+  ],
+  "author": "Tharun Vaibhav S S"
+}
